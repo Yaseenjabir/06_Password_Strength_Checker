@@ -1,2 +1,2 @@
 # 06_Password_Strength_Checker
-This project will check your password strength
+This project will check your password strength, it will check whetere your password has LowerCase, UpperCase Letter, Number and symbols and will check you password length as well.
