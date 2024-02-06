@@ -1,25 +1,106 @@
-* {
-  box-sizing: border-box;
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-body {
-  background-color: antiquewhite;
+
+
+/* body starts here  */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+  flex-direction: column;
+  background: linear-gradient(orange, yellow)
+}
+/* body ends here  */
+
+
+/* main start here  */
+.main{
+  background-color: white;
+  width: 400px;
+  min-height: 300px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+/* main ends here  */
+
+
+/* input starts here  */
+input{
+  width: 99%;
+  height: 30px;
+  outline: none;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  border: solid 1px rgb(153, 153, 153);
+  padding: 0px 5px;
+}
+/* input ends here  */
+
+
+/* innerDiv starts here  */
+.innerDiv{
+  height: 250px;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.box{
+  height: 40px;
+  width: 100%;
+  /* background-color: black; */
+  border: 1px solid rgb(32, 32, 32);
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-}
-
-#password {
-  width: 350px;
-  padding: 15px;
-  font-size: 1.5rem;
-  background-color: antiquewhite;
-  border: 2px solid black;
+  padding: 0px 5px;
   border-radius: 5px;
+  background-color: white;
 }
-
-#password:focus {
-  outline: none;
+.tick{
+  width: 10%;
+  background-color: rgb(194, 193, 193);
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 0.3px; */
+  padding-bottom: 0.1px;
+  box-shadow: 0px 0px 3px #c2c1c1;
 }
+.insideTick{
+  height: 90%;
+  width: 90%;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+}
+.caseCheck{
+  width: 90%;
+  height: 80%;
+  /* background-color: green; */
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10px;
+}
+/* innerDiv ends here  */
